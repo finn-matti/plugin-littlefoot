@@ -1,10 +1,10 @@
 {
 
-  "version": "1.1.5",
-  "title": "Bigfoot",
-  "description": "Adds Bigfoot.js to your Micro.blog theme.",
+  "version": "1.0.0",
+  "title": "Littlefoot",
+  "description": "Adds Littlefoot.js to your Micro.blog theme.",
   "includes": [
-    "bigfoot.html"
+    "littlefoot.html"
   ],
   "fields": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "field": "params.use_numbers",
-      "label": "Use numbers?", 
+      "label": "Use numbers? (instead of \"...\")",
       "type": "boolean"
     }
   ]

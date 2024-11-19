@@ -1,0 +1,17 @@
+<link
+        rel="stylesheet"
+        href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+/>
+<script
+        src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+        type="application/javascript"
+></script>
+<script defer type="application/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        littlefoot.littlefoot(
+            {
+                numberResetSelector: {{ .Site.Params.post_separator }}
+            }
+        ) // Pass any littlefoot settings here.
+    });
+</script>
